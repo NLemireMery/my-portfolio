@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "React Reserve",
+    title: "Générateur de Nom",
     subtitle: "MERN Stack",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
@@ -8,16 +8,16 @@ export const projects = [
     link: "https://reactbootcamp.com",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "O'Dicey",
+    subtitle: "Symfony & React",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-2.gif",
     link: "https://reactbootcamp.com",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Portfolio",
+    subtitle: "React & Tailwindcss",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-3.gif",
