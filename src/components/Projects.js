@@ -9,20 +9,21 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps et Projets du Web
+            Apps &amp; Projets du Web
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-red-800 hover:text-red-500 font-semibold mb-3">
-            HTML5 / CSS3 / SQL / JAVASCRIPT
+            HTML5 / CSS3 / SQL / JAVASCRIPT / PHP
             <br></br>
-            REACT / TAILWINDCSS / PHP / SYMFONY
+            REACT / TAILWINDCSS / SYMFONY / TWIG
           </p>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Spécialisé en développement back-end (PHP et Symfony) <span role="img" aria-label="technologist">👨🏼‍💻</span>
+            Spécialisé en développement back-end <span role="img" aria-label="technologist">👨🏼‍💻</span>
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
+              target="_blank"
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
@@ -32,8 +33,8 @@ export default function Projects() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-red-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-red-600 mb-1">
                     {project.subtitle}
                   </h2>
                   <h1 className="title-font text-lg font-medium text-white mb-3">

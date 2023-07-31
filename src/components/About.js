@@ -24,25 +24,43 @@ export default function About() {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-red-800 border-0 py-2 px-6 focus:outline-none hover:bg-red-900 rounded text-lg">
+              className="inline-flex text-white bg-red-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded text-lg">
               Envoie-moi un message
             </a>
             <a
-              href="#contact"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-red-800 hover:text-white rounded text-lg">
+              target="_blank"
+              href="./cv.pdf"
+              className="ml-4 inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-red-800 hover:text-white rounded text-lg">
               Mon CV en 1 clic
             </a>
+          </div>
+          <div className="flex justify-start mt-3">
             <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-red-800 hover:text-white rounded text-lg">
-              Mes anciens (et actuels) travaux
+              target="_blank"
+              href="https://www.linkedin.com/in/nicolas-lemire-mery/"
+              className="inline-flex focus:outline-none rounded">
+              <img
+                  alt="linkedin"
+                  className="w-10 h-10"
+                  src="./linkedin-tile.svg"
+              />
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/NLemireMery"
+              className="inline-flex px-6 focus:outline-none rounded">
+              <img
+                  alt="github"
+                  className="w-10 h-10"
+                  src="./github-tile.svg"
+              />
             </a>
           </div>
         </div>
         <div className="lg:max-w-md lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-contain rounded-t-full border-4 border-red-800"
-            alt="picture of Nicolas in black&white"
+            alt="Nicolas in black&white"
             src="./cv_photo.png"
           />
         </div>
