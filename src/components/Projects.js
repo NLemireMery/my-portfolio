@@ -24,6 +24,7 @@ export default function Projects() {
           {projects.map((project) => (
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
@@ -41,6 +42,12 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
+                  <a 
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                      <p className="text-sm title-font font-medium text-red-600 mt-4 hover:text-red-400">Github</p>
+                  </a> 
                 </div>
               </div>
             </a>

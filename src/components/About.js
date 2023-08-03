@@ -37,6 +37,7 @@ export default function About() {
           <div className="flex justify-start mt-3">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/nicolas-lemire-mery/"
               className="inline-flex focus:outline-none rounded">
               <img
@@ -47,6 +48,7 @@ export default function About() {
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/NLemireMery"
               className="inline-flex px-6 focus:outline-none rounded">
               <img

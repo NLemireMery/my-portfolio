@@ -3,9 +3,10 @@ export const projects = [
     title: "Générateur de Nom",
     subtitle: "Javascript",
     description:
-      "Pour les créateurs, les auteurs, les joueurs de jeux de rôle en manque d'inspiration !",
+      "Pour les créateurs, les auteurs, les joueurs de jeux de rôle en manque d'inspiration ! Un générateur de noms selon un genre et setting choisis.",
     image: "./project-1.gif",
     link: "https://reactbootcamp.com",
+    github: "https://github.com/NLemireMery/NameGenerator",
   },
   {
     title: "O'Dicey",
@@ -14,6 +15,7 @@ export const projects = [
       "Projet de fin de formation, une aide au jeu de rôle inspiré par Roll20 pour gérer ses personnages, ses parties, et jouer entre amis en ligne.",
     image: "./project-2.gif",
     link: "https://reactbootcamp.com",
+    github: "https://github.com/NLemireMery/odicey",
   },
   {
     title: "Portfolio",
@@ -22,6 +24,7 @@ export const projects = [
       "Un site développé avec l'aide de plusieurs tutoriels pour découvrir React, vitrine de mes projets et mon parcours.",
     image: "./project-3.gif",
     link: "https://reactbootcamp.com",
+    github: "https://github.com/NLemireMery/my-portfolio",
   },
 ];
 
