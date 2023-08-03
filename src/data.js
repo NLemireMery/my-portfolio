@@ -5,7 +5,7 @@ export const projects = [
     description:
       "Pour les créateurs, les auteurs, les joueurs de jeux de rôle en manque d'inspiration ! Un générateur de noms selon un genre et setting choisis.",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "#",
     github: "https://github.com/NLemireMery/NameGenerator",
   },
   {
@@ -14,17 +14,44 @@ export const projects = [
     description:
       "Projet de fin de formation, une aide au jeu de rôle inspiré par Roll20 pour gérer ses personnages, ses parties, et jouer entre amis en ligne.",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    link: "#",
     github: "https://github.com/NLemireMery/odicey",
+  },
+  {
+    title: "Geektown",
+    subtitle: "PHP / Wordpress",
+    description:
+      "Blog personnel, un peu nerdy, où je poste des billets sur les films et séries que je regarde, les jeux auxquels je joue, etc.",
+    image: "",
+    link: "#",
+    github: "#",
   },
   {
     title: "Portfolio",
     subtitle: "React & Tailwindcss",
     description:
       "Un site développé avec l'aide de plusieurs tutoriels pour découvrir React, vitrine de mes projets et mon parcours.",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    image: "./project-4.gif",
+    link: "#",
     github: "https://github.com/NLemireMery/my-portfolio",
+  },
+  {
+    title: "Scrolling Text",
+    subtitle: "HTML / Javascript",
+    description:
+      "Texte défilant sur écran, avec clavier cliquable. Réalisé durant la formation O'clock.",
+    image: "./project-5.gif",
+    link: "#",
+    github: "https://github.com/NLemireMery/ScrollingText",
+  },
+  {
+    title: "Soundboard",
+    subtitle: "Javascript",
+    description:
+      "Soundboard interactif, manipulable via clic ou clavier. Réalisé durant la formation O'clock.",
+    image: "./project-6.gif",
+    link: "#",
+    github: "https://github.com/NLemireMery/soundboard",
   },
 ];
 
